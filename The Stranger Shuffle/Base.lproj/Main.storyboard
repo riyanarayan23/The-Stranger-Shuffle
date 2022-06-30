@@ -97,9 +97,9 @@
                                 <rect key="frame" x="40" y="357" width="305" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
-                                    <segment title="Fierce"/>
-                                    <segment title="Protective"/>
                                     <segment title="Cultured"/>
+                                    <segment title="Protective"/>
+                                    <segment title="Fierce"/>
                                 </segments>
                             </segmentedControl>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="4. Choose a Stranger Things season" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teM-nP-Lxc">
@@ -127,9 +127,9 @@
                                 <rect key="frame" x="40" y="449" width="305" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
-                                    <segment title="1"/>
-                                    <segment title="2"/>
                                     <segment title="3"/>
+                                    <segment title="2"/>
+                                    <segment title="1"/>
                                 </segments>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="5N1-pD-ZMT">
@@ -137,16 +137,16 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
                                     <segment title="Band Nerds"/>
-                                    <segment title="Rebels"/>
                                     <segment title="Skaters"/>
+                                    <segment title="Rebels"/>
                                 </segments>
                             </segmentedControl>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="pc0-jf-SbY">
                                 <rect key="frame" x="40" y="627" width="305" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
-                                    <segment title="Vecna"/>
                                     <segment title="Russians"/>
+                                    <segment title="Vecna"/>
                                     <segment title="Papa"/>
                                 </segments>
                             </segmentedControl>
@@ -176,9 +176,9 @@
                                 <rect key="frame" x="16" y="256" width="353" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <segments>
-                                    <segment title="Destroy it"/>
                                     <segment title="PANIC"/>
                                     <segment title="Attempt to fight"/>
+                                    <segment title="Destroy it"/>
                                 </segments>
                             </segmentedControl>
                         </subviews>
