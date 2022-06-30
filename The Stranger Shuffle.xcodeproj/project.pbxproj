@@ -15,6 +15,7 @@
 		43F2649D286CD58400BE142F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43F2649C286CD58400BE142F /* Assets.xcassets */; };
 		43F264A0286CD58400BE142F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F2649E286CD58400BE142F /* LaunchScreen.storyboard */; };
 		BDEADF64286E213000422DCA /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEADF63286E213000422DCA /* QuizViewController.swift */; };
+		F1673126286E64450047C0D0 /* 2ndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1673125286E64450047C0D0 /* 2ndViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		43F2649F286CD58400BE142F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43F264A1286CD58400BE142F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDEADF63286E213000422DCA /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		F1673125286E64450047C0D0 /* 2ndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2ndViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +63,12 @@
 			isa = PBXGroup;
 			children = (
 				43F26490286CD57300BE142F /* AppDelegate.swift */,
-				43F26492286CD57300BE142F /* SceneDelegate.swift */,
 				43F26494286CD57300BE142F /* ViewController.swift */,
 				43F26496286CD57300BE142F /* Main.storyboard */,
+				F1673125286E64450047C0D0 /* 2ndViewController.swift */,
 				BDEADF63286E213000422DCA /* QuizViewController.swift */,
 				43F2649C286CD58400BE142F /* Assets.xcassets */,
+				43F26492286CD57300BE142F /* SceneDelegate.swift */,
 				43F2649E286CD58400BE142F /* LaunchScreen.storyboard */,
 				43F264A1286CD58400BE142F /* Info.plist */,
 				43F26499286CD57300BE142F /* The_Stranger_Shuffle.xcdatamodeld */,
@@ -146,6 +149,7 @@
 				43F26495286CD57300BE142F /* ViewController.swift in Sources */,
 				BDEADF64286E213000422DCA /* QuizViewController.swift in Sources */,
 				43F2649B286CD57300BE142F /* The_Stranger_Shuffle.xcdatamodeld in Sources */,
+				F1673126286E64450047C0D0 /* 2ndViewController.swift in Sources */,
 				43F26491286CD57300BE142F /* AppDelegate.swift in Sources */,
 				43F26493286CD57300BE142F /* SceneDelegate.swift in Sources */,
 			);
