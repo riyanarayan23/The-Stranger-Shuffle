@@ -1,21 +1,21 @@
 //
-//  ViewController.swift
+//  QuizViewController.swift
 //  The Stranger Shuffle
 //
-//  Created by Riya Narayan on 6/29/22.
+//  Created by Scholar on 6/30/22.
 //
 
 import UIKit
 
-class ViewController: UIViewController {
+class QuizViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+
         // Do any additional setup after loading the view.
     }
+    
 
+    
 
 }
-
-
-

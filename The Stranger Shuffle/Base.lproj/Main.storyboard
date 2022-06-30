@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -16,35 +17,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="The Stranger Shuffle" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uMA-0B-viu">
-                                <rect key="frame" x="114" y="78" width="159" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Stranger Shuffle" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uMA-0B-viu">
+                                <rect key="frame" x="50" y="74" width="314" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JS4-Mn-qYn">
-                                <rect key="frame" x="144" y="541" width="99" height="31"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome! Answer the questions below and we'll match you with a Stranger Things character and their favorite 80's music!" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1S2-Gh-K0U">
+                                <rect key="frame" x="20" y="135" width="374" height="61"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JS4-Mn-qYn">
+                                <rect key="frame" x="50" y="236" width="314" height="310.5"/>
+                                <state key="normal" title="Get Started!"/>
                                 <connections>
                                     <segue destination="dfv-Kb-Kks" kind="show" id="A8c-dp-Lhu"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Welcome! Answer the questions below and we'll match you with a Stranger Things character and their favorite 80's music!" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1S2-Gh-K0U">
-                                <rect key="frame" x="50" y="123" width="314" height="153"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="1S2-Gh-K0U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="0dH-WI-yGw"/>
-                            <constraint firstAttribute="trailing" secondItem="1S2-Gh-K0U" secondAttribute="trailing" constant="-50" id="CSu-0i-3oe"/>
-                            <constraint firstAttribute="trailing" secondItem="1S2-Gh-K0U" secondAttribute="trailing" constant="-100" id="dzH-Mk-drq"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1S2-Gh-K0U" secondAttribute="trailing" constant="50" id="ygq-Wh-C7F"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uMA-0B-viu" secondAttribute="trailing" constant="50" id="8HP-bq-qnd"/>
+                            <constraint firstItem="1S2-Gh-K0U" firstAttribute="top" secondItem="uMA-0B-viu" secondAttribute="bottom" constant="40" id="Jq0-pR-EpC"/>
+                            <constraint firstItem="JS4-Mn-qYn" firstAttribute="top" secondItem="1S2-Gh-K0U" secondAttribute="bottom" constant="40" id="Ojf-3q-9Ed"/>
+                            <constraint firstItem="JS4-Mn-qYn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="RvR-e0-UBh"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="JS4-Mn-qYn" secondAttribute="trailing" constant="50" id="SwF-aI-fq6"/>
+                            <constraint firstItem="uMA-0B-viu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="aKr-C9-iea"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1S2-Gh-K0U" secondAttribute="trailing" constant="20" id="cS9-NJ-nlL"/>
+                            <constraint firstItem="1S2-Gh-K0U" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="dCl-aH-BcJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="JS4-Mn-qYn" secondAttribute="bottom" constant="315.5" id="i3g-Bv-r0J"/>
+                            <constraint firstItem="uMA-0B-viu" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="rWB-8z-dWK"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -52,10 +57,10 @@
             </objects>
             <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
         </scene>
-        <!--View Controller-->
+        <!--Quiz View Controller-->
         <scene sceneID="WUj-zm-FtN">
             <objects>
-                <viewController id="dfv-Kb-Kks" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="quiz" id="dfv-Kb-Kks" customClass="QuizViewController" customModule="The_Stranger_Shuffle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="t56-oK-65Y">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
