@@ -7,7 +7,7 @@
 
 import UIKit
 
-class _ndViewController: UIViewController {
+class ViewController2: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,19 +16,23 @@ class _ndViewController: UIViewController {
     }
     
 
-    @IBAction func maxButton(_ sender: UIButton) {
+    @IBAction func MaxPlaylist(_ sender: Any) {
         let spotifyURL = URL(string: "https://open.spotify.com/playlist/4NHgQz8tiFZFK6OzzWEj06?si=nX8jQkfxQFWV-vjIZ8263Q")
-    UIApplication.shared.open(spotifyURL!)
-    }
+        UIApplication.shared.open(spotifyURL!)    }
     
-    @IBAction func robinButton(_ sender: UIButton) {
+    
+    
+    
+    @IBAction func RobinPlaylist(_ sender: Any) {
         let spotifyURL = URL(string: "https://open.spotify.com/playlist/0hRLmpUs5MT0NYILJphNqi")
-    UIApplication.shared.open(spotifyURL!)
-    }
+    UIApplication.shared.open(spotifyURL!)    }
     
-    @IBAction func elevenButton(_ sender: UIButton) {
+   
+        
+    
+    @IBAction func ElevenPlaylist(_ sender: Any) {
         let spotifyURL = URL(string: "https://open.spotify.com/playlist/4gEnLWadGWe51VXpf5iy4M")
-    UIApplication.shared.open(spotifyURL!)
+        UIApplication.shared.open(spotifyURL!)
     }
     
     

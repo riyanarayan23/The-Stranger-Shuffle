@@ -16,7 +16,7 @@
 		43F264A0286CD58400BE142F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43F2649E286CD58400BE142F /* LaunchScreen.storyboard */; };
 		BDEADF64286E213000422DCA /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEADF63286E213000422DCA /* QuizViewController.swift */; };
 		BDEADF66286E8A9600422DCA /* QuestionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDEADF65286E8A9600422DCA /* QuestionsData.swift */; };
-		F1673126286E64450047C0D0 /* 2ndViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1673125286E64450047C0D0 /* 2ndViewController.swift */; };
+		F1673126286E64450047C0D0 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1673125286E64450047C0D0 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +31,7 @@
 		43F264A1286CD58400BE142F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDEADF63286E213000422DCA /* QuizViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
 		BDEADF65286E8A9600422DCA /* QuestionsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsData.swift; sourceTree = "<group>"; };
-		F1673125286E64450047C0D0 /* 2ndViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2ndViewController.swift; sourceTree = "<group>"; };
+		F1673125286E64450047C0D0 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 				43F26496286CD57300BE142F /* Main.storyboard */,
 				43F26490286CD57300BE142F /* AppDelegate.swift */,
 				43F26494286CD57300BE142F /* ViewController.swift */,
-				F1673125286E64450047C0D0 /* 2ndViewController.swift */,
+				F1673125286E64450047C0D0 /* ViewController2.swift */,
 				BDEADF63286E213000422DCA /* QuizViewController.swift */,
 				BDEADF65286E8A9600422DCA /* QuestionsData.swift */,
 				43F2649C286CD58400BE142F /* Assets.xcassets */,
@@ -153,7 +153,7 @@
 				BDEADF64286E213000422DCA /* QuizViewController.swift in Sources */,
 				43F2649B286CD57300BE142F /* The_Stranger_Shuffle.xcdatamodeld in Sources */,
 				BDEADF66286E8A9600422DCA /* QuestionsData.swift in Sources */,
-				F1673126286E64450047C0D0 /* 2ndViewController.swift in Sources */,
+				F1673126286E64450047C0D0 /* ViewController2.swift in Sources */,
 				43F26491286CD57300BE142F /* AppDelegate.swift in Sources */,
 				43F26493286CD57300BE142F /* SceneDelegate.swift in Sources */,
 			);
