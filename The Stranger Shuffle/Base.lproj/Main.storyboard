@@ -113,6 +113,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="At0-cN-nk1"/>
+                    <connections>
+                        <outlet property="question1" destination="dqG-fW-thj" id="wxl-uB-0O7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="50W-dU-zZY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -185,6 +188,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Hbu-Va-AX0"/>
+                    <connections>
+                        <outlet property="question2" destination="pWf-U2-ykO" id="Us9-hJ-zrY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lnr-7p-XcC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -265,6 +271,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="hmQ-fx-W3h"/>
+                    <connections>
+                        <outlet property="question3" destination="Dti-1F-WG5" id="XSw-hC-Gxy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pTh-Uz-luU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -340,6 +349,9 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Xh4-Rt-g1x"/>
+                    <connections>
+                        <outlet property="question4" destination="cfA-GC-dgO" id="4av-5W-kWT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tbp-ei-Ll7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

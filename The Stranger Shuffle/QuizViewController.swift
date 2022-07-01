@@ -9,6 +9,19 @@ import UIKit
 
 class QuizViewController: UIViewController {
     
+    @IBOutlet weak var question1: UIStackView!
+    
+    
+    @IBOutlet weak var question2: UIStackView!
+    
+    
+    @IBOutlet weak var question3: UIStackView!
+    
+    
+    @IBOutlet weak var question4: UIStackView!
+    
+    
+    
     
     var questions: [Question] = [
       Question(text: "What's your favorite snack?",
