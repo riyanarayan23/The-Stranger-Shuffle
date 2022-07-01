@@ -8,7 +8,6 @@
 import UIKit
 
 class QuizViewController: UIViewController {
-    
     @IBOutlet weak var questionLabel: UILabel!
     
     @IBOutlet weak var SingleStackView1: UIStackView!
@@ -16,24 +15,20 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var singleButton1_2: UIButton!
     @IBOutlet weak var singleButton1_3: UIButton!
     
-    
     @IBOutlet weak var SingleStackView2: UIStackView!
     @IBOutlet weak var singleButton2_1: UIButton!
     @IBOutlet weak var singleButton2_2: UIButton!
     @IBOutlet weak var singleButton2_3: UIButton!
-    
     
     @IBOutlet weak var SingleStackView3: UIStackView!
     @IBOutlet weak var singleButton3_1: UIButton!
     @IBOutlet weak var singleButton3_2: UIButton!
     @IBOutlet weak var singleButton3_3: UIButton!
     
-    
     @IBOutlet weak var SingleStackView4: UIStackView!
     @IBOutlet weak var singleButton4_1: UIButton!
     @IBOutlet weak var singleButton4_2: UIButton!
     @IBOutlet weak var singleButton4_3: UIButton!
-    
     
     @IBOutlet weak var SingleStackView5: UIStackView!
     @IBOutlet weak var singleButton5_1: UIButton!
@@ -98,11 +93,9 @@ class QuizViewController: UIViewController {
         
         override func viewDidLoad() {
             super.viewDidLoad()
-
-            // Do any additional setup after loading the view.
-        }
-        func updateUI() {
         
+        func updateUI(){
+            
             SingleStackView1.isHidden = true
             SingleStackView2.isHidden = true
             SingleStackView3.isHidden = true
@@ -113,25 +106,22 @@ class QuizViewController: UIViewController {
             navigationItem.title = "Question #\(questionIndex+1)"
             
             let currentQuestion = questions[questionIndex]
-           
-            
+            let currentAnswers = currentQuestion.answers
+            let totalProgress = Float(questionIndex)/Float(questions.count)
             
             switch currentQuestion.type {
             case .single:
                 SingleStackView1.isHidden = false
-            case .single:
                 SingleStackView2.isHidden = false
-            case .single:
                 SingleStackView3.isHidden = false
-            case .single:
                 SingleStackView4.isHidden = false
-            case .single:
                 SingleStackView5.isHidden = false
-            case .single:
                 SingleStackView6.isHidden = false
-            
+                
+            }
                 
         }
+        
 
 }
 
@@ -141,4 +131,5 @@ class QuizViewController: UIViewController {
 //
 // Created by Scholar on 6/30/22.
 //
+
 }

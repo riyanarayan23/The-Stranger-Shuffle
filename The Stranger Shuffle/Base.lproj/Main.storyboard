@@ -42,7 +42,7 @@
                                     <color key="titleShadowColor" red="0.1176470588" green="0.1137254902" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="U62-Hv-SQ9" kind="show" id="9Xi-XE-wqr"/>
+                                    <segue destination="TLO-B2-SaW" kind="show" id="3za-VK-JAM"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -55,718 +55,208 @@
             <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
         </scene>
         <!--Quiz View Controller-->
-        <scene sceneID="8rJ-kX-oev">
+        <scene sceneID="6Uw-Sq-PCR">
             <objects>
-                <viewController id="U62-Hv-SQ9" customClass="QuizViewController" customModule="The_Stranger_Shuffle" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="XyO-9O-Kx3">
+                <viewController id="TLO-B2-SaW" customClass="QuizViewController" customModule="The_Stranger_Shuffle" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KC4-0G-4FJ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LN9-lB-kKd">
-                                <rect key="frame" x="151" y="44" width="50" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="ZdZ-Jp-x5b">
+                                <rect key="frame" x="177" y="320" width="61" height="202"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bfQ-ju-LRQ">
+                                        <rect key="frame" x="0.0" y="0.0" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YDf-Pd-NOX">
+                                        <rect key="frame" x="0.0" y="82" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sBI-Hh-TOd">
+                                        <rect key="frame" x="0.0" y="164" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="Yyu-bi-V5J">
+                                <rect key="frame" x="177" y="320" width="61" height="202"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yT-hw-lef">
+                                        <rect key="frame" x="0.0" y="0.0" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jii-bD-JL7">
+                                        <rect key="frame" x="0.0" y="82" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yl0-LV-RDg">
+                                        <rect key="frame" x="0.0" y="164" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="mJ7-sv-42W">
+                                <rect key="frame" x="177" y="320" width="61" height="202"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wjq-FS-CZS">
+                                        <rect key="frame" x="0.0" y="0.0" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNa-aD-Fve">
+                                        <rect key="frame" x="0.0" y="82" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mxy-P5-fun">
+                                        <rect key="frame" x="0.0" y="164" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="3xV-RA-kHN">
+                                <rect key="frame" x="177" y="320" width="61" height="202"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PBJ-7a-mLl">
+                                        <rect key="frame" x="0.0" y="0.0" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ozn-Fo-6vL">
+                                        <rect key="frame" x="0.0" y="82" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hH7-2z-EWf">
+                                        <rect key="frame" x="0.0" y="164" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="6UK-nM-1ou">
+                                <rect key="frame" x="177" y="320" width="61" height="202"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="M4N-tL-hnY">
+                                        <rect key="frame" x="0.0" y="0.0" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omb-Ea-qNK">
+                                        <rect key="frame" x="0.0" y="82" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2V-tT-lZ1">
+                                        <rect key="frame" x="0.0" y="164" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="44" translatesAutoresizingMaskIntoConstraints="NO" id="TJx-1h-1RS">
+                                <rect key="frame" x="177" y="320" width="61" height="202"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gA1-qg-LIg">
+                                        <rect key="frame" x="0.0" y="0.0" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pey-jT-oCP">
+                                        <rect key="frame" x="0.0" y="82" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9PK-6E-qPf">
+                                        <rect key="frame" x="0.0" y="164" width="61" height="38"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Button"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mIt-74-r3L">
+                                <rect key="frame" x="179" y="91" width="57" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="t0y-wp-lD1">
-                                <rect key="frame" x="177" y="335" width="59" height="172"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zT3-f3-UrM">
-                                        <rect key="frame" x="0.0" y="0.0" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xzu-dR-9Tu">
-                                        <rect key="frame" x="0.0" y="68" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qfZ-GO-uFo">
-                                        <rect key="frame" x="0.0" y="136" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="4pl-Rk-l3K">
-                                <rect key="frame" x="177" y="335" width="59" height="172"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lnm-cq-Mxh">
-                                        <rect key="frame" x="0.0" y="0.0" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wav-ph-NG2">
-                                        <rect key="frame" x="0.0" y="68" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egl-7y-3Ua">
-                                        <rect key="frame" x="0.0" y="136" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="yeS-O3-vgv">
-                                <rect key="frame" x="177" y="335" width="59" height="172"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uqP-sz-6gb">
-                                        <rect key="frame" x="0.0" y="0.0" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aDO-RY-fVu">
-                                        <rect key="frame" x="0.0" y="68" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4hU-qG-Ohu">
-                                        <rect key="frame" x="0.0" y="136" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="8Ex-vb-liH">
-                                <rect key="frame" x="177" y="335" width="59" height="172"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fx6-AG-zk8">
-                                        <rect key="frame" x="0.0" y="0.0" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0af-DS-fUF">
-                                        <rect key="frame" x="0.0" y="68" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1vS-mz-5Ni">
-                                        <rect key="frame" x="0.0" y="136" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <view contentMode="scaleToFill" id="sRy-Zq-v6G">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" id="kX5-5m-KON">
-                                        <rect key="frame" x="0.0" y="27" width="414" height="788"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="2. How would you react to a Demogorgon?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KTa-Q4-1Xo">
-                                                <rect key="frame" x="30" y="79" width="354" height="57"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="N2B-J0-Q2I">
-                                                <rect key="frame" x="147" y="159" width="138" height="240"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uTX-m8-fsr">
-                                                        <rect key="frame" x="0.0" y="0.0" width="138" height="36"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="PANIC"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YdU-JW-kYh">
-                                                        <rect key="frame" x="0.0" y="68" width="138" height="36"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Attempt to fight"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vz6-UY-hNL">
-                                                        <rect key="frame" x="0.0" y="136" width="138" height="36"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Destroy it!"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uw8-PZ-AeX">
-                                                        <rect key="frame" x="0.0" y="204" width="138" height="36"/>
-                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Next &gt;">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        </state>
-                                                    </button>
-                                                </subviews>
-                                            </stackView>
-                                        </subviews>
-                                        <viewLayoutGuide key="safeArea" id="YRI-WA-q4M"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <constraints>
-                                            <constraint firstItem="N2B-J0-Q2I" firstAttribute="top" secondItem="KTa-Q4-1Xo" secondAttribute="bottom" id="IJN-BU-C7a"/>
-                                            <constraint firstItem="N2B-J0-Q2I" firstAttribute="leading" secondItem="YRI-WA-q4M" secondAttribute="leading" constant="147" id="O52-Dj-XGS"/>
-                                            <constraint firstItem="KTa-Q4-1Xo" firstAttribute="top" secondItem="YRI-WA-q4M" secondAttribute="top" constant="60" id="XVY-yt-QzO"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <viewLayoutGuide key="safeArea" id="c6v-ZJ-RUr"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="jio-Kp-lXA">
-                                <rect key="frame" x="177" y="335" width="59" height="172"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vAj-DE-WEt">
-                                        <rect key="frame" x="0.0" y="0.0" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnA-Sv-QNG">
-                                        <rect key="frame" x="0.0" y="68" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Og-0o-PRv">
-                                        <rect key="frame" x="0.0" y="136" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                </subviews>
-                            </stackView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="dqG-fW-thj" userLabel="Single Stack View6">
-                                <rect key="frame" x="165" y="335" width="59" height="172"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oMm-Ys-AD3" userLabel="singleButton6_1">
-                                        <rect key="frame" x="0.0" y="0.0" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2F3-wA-EV2">
-                                        <rect key="frame" x="0.0" y="68" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OM1-dl-v5O">
-                                        <rect key="frame" x="0.0" y="136" width="59" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" title="Button"/>
-                                    </button>
-                                </subviews>
-                            </stackView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="kg1-kR-eZn"/>
+                        <viewLayoutGuide key="safeArea" id="DVG-FL-Vpz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="dqG-fW-thj" firstAttribute="leading" secondItem="kg1-kR-eZn" secondAttribute="leading" constant="147" id="w39-nc-ewM"/>
+                            <constraint firstItem="ZdZ-Jp-x5b" firstAttribute="top" secondItem="mIt-74-r3L" secondAttribute="bottom" constant="40" id="3dS-wE-poU"/>
+                            <constraint firstItem="3xV-RA-kHN" firstAttribute="top" secondItem="mIt-74-r3L" secondAttribute="bottom" constant="40" id="4La-ic-5Zj"/>
+                            <constraint firstItem="6UK-nM-1ou" firstAttribute="top" secondItem="mIt-74-r3L" secondAttribute="bottom" constant="40" id="Rpm-XH-UL1"/>
+                            <constraint firstItem="Yyu-bi-V5J" firstAttribute="top" secondItem="mIt-74-r3L" secondAttribute="bottom" constant="40" id="Sdl-IM-CMv"/>
+                            <constraint firstItem="TJx-1h-1RS" firstAttribute="top" secondItem="mIt-74-r3L" secondAttribute="bottom" constant="40" id="Zut-Wk-izE"/>
+                            <constraint firstItem="mJ7-sv-42W" firstAttribute="top" secondItem="mIt-74-r3L" secondAttribute="bottom" constant="40" id="fyB-Pb-AAV"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="subviews">
-                                <exclude reference="t0y-wp-lD1"/>
-                                <exclude reference="4pl-Rk-l3K"/>
-                                <exclude reference="yeS-O3-vgv"/>
-                                <exclude reference="8Ex-vb-liH"/>
-                                <exclude reference="sRy-Zq-v6G"/>
-                                <exclude reference="jio-Kp-lXA"/>
-                                <exclude reference="dqG-fW-thj"/>
-                            </mask>
-                        </variation>
                     </view>
-                    <navigationItem key="navigationItem" id="At0-cN-nk1"/>
+                    <navigationItem key="navigationItem" id="2Kk-9y-1qk"/>
                     <connections>
-                        <outlet property="SingleStackView1" destination="jio-Kp-lXA" id="8pY-Pa-LJr"/>
-                        <outlet property="SingleStackView2" destination="8Ex-vb-liH" id="ncG-n9-XAT"/>
-                        <outlet property="SingleStackView3" destination="yeS-O3-vgv" id="Y3M-gR-g0z"/>
-                        <outlet property="SingleStackView4" destination="4pl-Rk-l3K" id="J2g-zA-wne"/>
-                        <outlet property="SingleStackView5" destination="t0y-wp-lD1" id="yfl-qs-Xhs"/>
-                        <outlet property="SingleStackView6" destination="dqG-fW-thj" id="yqi-Ip-vHT"/>
-                        <outlet property="answerPeanutButter" destination="oMm-Ys-AD3" id="SK4-rM-J8k"/>
-                        <outlet property="question1" destination="dqG-fW-thj" id="wxl-uB-0O7"/>
-                        <outlet property="questionLabel" destination="LN9-lB-kKd" id="G2i-5f-3pz"/>
-                        <outlet property="singleButton1_1" destination="vAj-DE-WEt" id="voF-V6-2Ll"/>
-                        <outlet property="singleButton1_2" destination="tnA-Sv-QNG" id="huG-2h-qii"/>
-                        <outlet property="singleButton1_3" destination="6Og-0o-PRv" id="etg-tv-Cfb"/>
-                        <outlet property="singleButton2_1" destination="Fx6-AG-zk8" id="r6R-LQ-GtR"/>
-                        <outlet property="singleButton2_2" destination="0af-DS-fUF" id="us4-va-Uzv"/>
-                        <outlet property="singleButton2_3" destination="1vS-mz-5Ni" id="qcE-4Q-2nM"/>
-                        <outlet property="singleButton3_1" destination="uqP-sz-6gb" id="B5c-Ug-3mr"/>
-                        <outlet property="singleButton3_2" destination="aDO-RY-fVu" id="9l7-Qo-Ugg"/>
-                        <outlet property="singleButton3_3" destination="4hU-qG-Ohu" id="NAo-rS-h0Q"/>
-                        <outlet property="singleButton4_1" destination="lnm-cq-Mxh" id="Fdy-r5-sd1"/>
-                        <outlet property="singleButton4_2" destination="Wav-ph-NG2" id="8o9-yF-ntH"/>
-                        <outlet property="singleButton4_3" destination="egl-7y-3Ua" id="Dp7-6F-Otc"/>
-                        <outlet property="singleButton5_1" destination="zT3-f3-UrM" id="0WN-Ql-dm4"/>
-                        <outlet property="singleButton5_2" destination="xzu-dR-9Tu" id="8Mf-fc-dqV"/>
-                        <outlet property="singleButton5_3" destination="qfZ-GO-uFo" id="ibK-Su-9FE"/>
-                        <outlet property="singleButton6_1" destination="oMm-Ys-AD3" id="zch-zQ-O8N"/>
-                        <outlet property="singleButton6_2" destination="2F3-wA-EV2" id="Lsh-9Z-T5Y"/>
-                        <outlet property="singleButton6_3" destination="OM1-dl-v5O" id="X25-JY-wxc"/>
-                        <outlet property="singleStackView1" destination="dqG-fW-thj" id="8p1-sr-heQ"/>
+                        <outlet property="SingleStackView1" destination="ZdZ-Jp-x5b" id="Fbf-XV-agk"/>
+                        <outlet property="SingleStackView2" destination="Yyu-bi-V5J" id="j3A-nl-c3h"/>
+                        <outlet property="SingleStackView3" destination="mJ7-sv-42W" id="PDM-Io-Dhd"/>
+                        <outlet property="SingleStackView4" destination="3xV-RA-kHN" id="zde-Qr-67Q"/>
+                        <outlet property="SingleStackView5" destination="6UK-nM-1ou" id="nm6-B2-g9w"/>
+                        <outlet property="SingleStackView6" destination="TJx-1h-1RS" id="44b-gZ-3xU"/>
+                        <outlet property="questionLabel" destination="mIt-74-r3L" id="r3Y-Xu-FTw"/>
+                        <outlet property="singleButton1_1" destination="bfQ-ju-LRQ" id="M5V-Hm-TUg"/>
+                        <outlet property="singleButton1_2" destination="YDf-Pd-NOX" id="Wkq-Q2-uRq"/>
+                        <outlet property="singleButton1_3" destination="sBI-Hh-TOd" id="FJN-ta-hHx"/>
+                        <outlet property="singleButton2_1" destination="5yT-hw-lef" id="fUD-aJ-YAS"/>
+                        <outlet property="singleButton2_2" destination="jii-bD-JL7" id="YEp-Ih-cni"/>
+                        <outlet property="singleButton2_3" destination="Yl0-LV-RDg" id="xqb-i0-vmi"/>
+                        <outlet property="singleButton3_1" destination="wjq-FS-CZS" id="qfp-0Q-FGs"/>
+                        <outlet property="singleButton3_2" destination="xNa-aD-Fve" id="MqC-bk-EIu"/>
+                        <outlet property="singleButton3_3" destination="mxy-P5-fun" id="mJB-KR-RxD"/>
+                        <outlet property="singleButton4_1" destination="PBJ-7a-mLl" id="cdE-km-q5Y"/>
+                        <outlet property="singleButton4_2" destination="ozn-Fo-6vL" id="ZPn-AO-7Sq"/>
+                        <outlet property="singleButton4_3" destination="hH7-2z-EWf" id="Y9v-yi-Z23"/>
+                        <outlet property="singleButton5_1" destination="M4N-tL-hnY" id="ecy-Jx-HA1"/>
+                        <outlet property="singleButton5_2" destination="omb-Ea-qNK" id="S36-j7-PnT"/>
+                        <outlet property="singleButton5_3" destination="D2V-tT-lZ1" id="wgZ-l4-gi3"/>
+                        <outlet property="singleButton6_1" destination="gA1-qg-LIg" id="EiP-fX-Gun"/>
+                        <outlet property="singleButton6_2" destination="Pey-jT-oCP" id="me2-hX-Rik"/>
+                        <outlet property="singleButton6_3" destination="9PK-6E-qPf" id="hGd-v5-MK1"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="50W-dU-zZY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l5k-bS-s5b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="19" y="838"/>
-        </scene>
-        <!--Quiz View Controller-->
-        <scene sceneID="drj-cP-9bc">
-            <objects>
-                <viewController id="H9J-iH-sQl" customClass="QuizViewController" customModule="The_Stranger_Shuffle" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="XQ6-Hz-2SD">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" id="599-NW-THl">
-                                <rect key="frame" x="0.0" y="27" width="414" height="842"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="2. How would you react to a Demogorgon?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tN1-8M-88l">
-                                        <rect key="frame" x="30" y="79" width="354" height="57"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="pWf-U2-ykO">
-                                        <rect key="frame" x="147" y="159" width="138" height="240"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="he3-vb-eGl">
-                                                <rect key="frame" x="0.0" y="0.0" width="138" height="36"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="PANIC"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V9R-RP-vc5">
-                                                <rect key="frame" x="0.0" y="68" width="138" height="36"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="Attempt to fight"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Du-UR-mjj">
-                                                <rect key="frame" x="0.0" y="136" width="138" height="36"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="Destroy it!"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jbn-yU-oe5">
-                                                <rect key="frame" x="0.0" y="204" width="138" height="36"/>
-                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="Next &gt;">
-                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="Ndm-0u-PiM" kind="show" id="ROV-cY-M4E"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                                <viewLayoutGuide key="safeArea" id="Q0f-af-dBT"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstItem="pWf-U2-ykO" firstAttribute="leading" secondItem="Q0f-af-dBT" secondAttribute="leading" constant="147" id="7Pd-6D-f0P"/>
-                                    <constraint firstItem="tN1-8M-88l" firstAttribute="top" secondItem="Q0f-af-dBT" secondAttribute="top" constant="60" id="Q9V-co-G7A"/>
-                                    <constraint firstItem="pWf-U2-ykO" firstAttribute="top" secondItem="tN1-8M-88l" secondAttribute="bottom" id="siT-JX-aVz"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Ros-HZ-J7d"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Hbu-Va-AX0"/>
-                    <connections>
-                        <outlet property="answerAttemptToFight" destination="V9R-RP-vc5" id="nAs-f5-D1n"/>
-                        <outlet property="answerDestroyIt" destination="7Du-UR-mjj" id="Pad-v0-iXR"/>
-                        <outlet property="answerPANIC" destination="he3-vb-eGl" id="jYG-BD-mYw"/>
-                        <outlet property="question2" destination="pWf-U2-ykO" id="Us9-hJ-zrY"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lnr-7p-XcC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="711.59420289855075" y="837.72321428571422"/>
-        </scene>
-        <!--Quiz View Controller-->
-        <scene sceneID="xhS-U1-KbM">
-            <objects>
-                <viewController id="Ndm-0u-PiM" customClass="QuizViewController" customModule="The_Stranger_Shuffle" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="NJh-vK-Qbp">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" id="2XS-9g-yhA">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" id="z29-mX-6Ny">
-                                        <rect key="frame" x="0.0" y="27" width="414" height="788"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="3. How would you describe yourself?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xzG-xu-oHY">
-                                                <rect key="frame" x="30" y="79" width="354" height="57"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="Dti-1F-WG5">
-                                                <rect key="frame" x="147" y="159" width="89" height="240"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wmB-1D-3be">
-                                                        <rect key="frame" x="0.0" y="0.0" width="89" height="36"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Cultured"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WKz-jz-l4I">
-                                                        <rect key="frame" x="0.0" y="68" width="89" height="36"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Protective"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MDO-Or-l9s">
-                                                        <rect key="frame" x="0.0" y="136" width="89" height="36"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Fierce"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6qz-aD-vHi">
-                                                        <rect key="frame" x="0.0" y="204" width="89" height="36"/>
-                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                        <state key="normal" title="Next &gt;">
-                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        </state>
-                                                        <connections>
-                                                            <segue destination="zGg-JZ-IGU" kind="show" id="46U-dy-HOh"/>
-                                                        </connections>
-                                                    </button>
-                                                </subviews>
-                                            </stackView>
-                                        </subviews>
-                                        <viewLayoutGuide key="safeArea" id="Rdm-2N-N5s"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <constraints>
-                                            <constraint firstItem="xzG-xu-oHY" firstAttribute="top" secondItem="Rdm-2N-N5s" secondAttribute="top" constant="60" id="BzO-aL-hDH"/>
-                                            <constraint firstItem="Dti-1F-WG5" firstAttribute="top" secondItem="xzG-xu-oHY" secondAttribute="bottom" id="DRT-af-PoO"/>
-                                            <constraint firstItem="Dti-1F-WG5" firstAttribute="leading" secondItem="Rdm-2N-N5s" secondAttribute="leading" constant="147" id="nYR-NM-jQQ"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <viewLayoutGuide key="safeArea" id="f6H-La-54Y"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="92L-Je-aiv"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="hmQ-fx-W3h"/>
-                    <connections>
-                        <outlet property="answerCultured" destination="wmB-1D-3be" id="yfh-mu-Jaj"/>
-                        <outlet property="answerFierce" destination="MDO-Or-l9s" id="4jw-rD-6ft"/>
-                        <outlet property="answerProtective" destination="WKz-jz-l4I" id="W50-s8-eEt"/>
-                        <outlet property="question3" destination="Dti-1F-WG5" id="XSw-hC-Gxy"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="pTh-Uz-luU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1361" y="838"/>
-        </scene>
-        <!--Quiz View Controller-->
-        <scene sceneID="M7T-hW-3ps">
-            <objects>
-                <viewController id="zGg-JZ-IGU" customClass="QuizViewController" customModule="The_Stranger_Shuffle" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="fMu-Sq-jMl">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" id="t23-wU-6YU">
-                                <rect key="frame" x="0.0" y="27" width="414" height="788"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="4. Choose a Stranger Things season?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jSU-bx-Bfi">
-                                        <rect key="frame" x="30" y="79" width="354" height="57"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="cfA-GC-dgO">
-                                        <rect key="frame" x="175" y="161" width="65" height="240"/>
-                                        <subviews>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cef-Ty-LQX">
-                                                <rect key="frame" x="0.0" y="0.0" width="65" height="36"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="3"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lu1-iI-P0Q">
-                                                <rect key="frame" x="0.0" y="68" width="65" height="36"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="2"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kda-s0-ytD">
-                                                <rect key="frame" x="0.0" y="136" width="65" height="36"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="1"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rvg-rb-otE">
-                                                <rect key="frame" x="0.0" y="204" width="65" height="36"/>
-                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" title="Next &gt;">
-                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="ZPv-tc-Ywi" kind="show" id="kTU-IQ-i2D"/>
-                                                </connections>
-                                            </button>
-                                        </subviews>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="65" id="D5t-0H-bs0"/>
-                                        </constraints>
-                                    </stackView>
-                                </subviews>
-                                <viewLayoutGuide key="safeArea" id="yCb-W7-LOV"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstItem="cfA-GC-dgO" firstAttribute="top" secondItem="jSU-bx-Bfi" secondAttribute="bottom" id="LfX-pc-Fz2"/>
-                                    <constraint firstItem="jSU-bx-Bfi" firstAttribute="top" secondItem="yCb-W7-LOV" secondAttribute="top" constant="60" id="Pwf-Dh-2YZ"/>
-                                    <constraint firstItem="cfA-GC-dgO" firstAttribute="leading" secondItem="yCb-W7-LOV" secondAttribute="leading" constant="147" id="XZ0-Rh-gv7"/>
-                                </constraints>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="af8-jG-E5S"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Xh4-Rt-g1x"/>
-                    <connections>
-                        <outlet property="answer1" destination="kda-s0-ytD" id="9DL-Xu-CtK"/>
-                        <outlet property="answer2" destination="lu1-iI-P0Q" id="Ctm-SZ-gIh"/>
-                        <outlet property="answer3" destination="cef-Ty-LQX" id="ltH-PT-Pm9"/>
-                        <outlet property="question4" destination="cfA-GC-dgO" id="4av-5W-kWT"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Tbp-ei-Ll7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2000.0000000000002" y="837.72321428571422"/>
-        </scene>
-        <!--Quiz View Controller-->
-        <scene sceneID="r5w-2b-zJy">
-            <objects>
-                <viewController id="ZPv-tc-Ywi" customClass="QuizViewController" customModule="The_Stranger_Shuffle" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="Bri-Y3-p5k">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" id="Qsr-hs-m0F">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" id="Suf-Oq-fs6">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" id="mdh-Tl-LVD">
-                                                <rect key="frame" x="0.0" y="27" width="414" height="788"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Which high school clique do you belong to?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lr1-cG-rUA">
-                                                        <rect key="frame" x="32" y="94" width="350" height="57"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="cnT-po-Wlt">
-                                                        <rect key="frame" x="156" y="176" width="103" height="240"/>
-                                                        <subviews>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5yo-g1-cni">
-                                                                <rect key="frame" x="0.0" y="0.0" width="103" height="36"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" title="Band Nerds"/>
-                                                            </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOx-Ob-goz">
-                                                                <rect key="frame" x="0.0" y="68" width="103" height="36"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" title="Skaters"/>
-                                                            </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EUp-Yg-NmH">
-                                                                <rect key="frame" x="0.0" y="136" width="103" height="36"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" title="Rebels"/>
-                                                            </button>
-                                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="90z-EU-ttt">
-                                                                <rect key="frame" x="0.0" y="204" width="103" height="36"/>
-                                                                <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                <state key="normal" title="Next &gt;">
-                                                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                                </state>
-                                                                <connections>
-                                                                    <segue destination="4M0-hW-X5n" kind="show" id="Pr6-0w-ziy"/>
-                                                                </connections>
-                                                            </button>
-                                                        </subviews>
-                                                    </stackView>
-                                                </subviews>
-                                                <viewLayoutGuide key="safeArea" id="qq6-tJ-IHh"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                <constraints>
-                                                    <constraint firstItem="cnT-po-Wlt" firstAttribute="leading" secondItem="qq6-tJ-IHh" secondAttribute="leading" constant="147" id="3Of-UM-Ocq"/>
-                                                    <constraint firstItem="cnT-po-Wlt" firstAttribute="top" secondItem="Lr1-cG-rUA" secondAttribute="bottom" id="HBS-ac-ILF"/>
-                                                    <constraint firstItem="Lr1-cG-rUA" firstAttribute="top" secondItem="qq6-tJ-IHh" secondAttribute="top" constant="60" id="Jna-Mc-fsu"/>
-                                                </constraints>
-                                            </view>
-                                        </subviews>
-                                        <viewLayoutGuide key="safeArea" id="BNF-eL-6hj"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                    </view>
-                                </subviews>
-                                <viewLayoutGuide key="safeArea" id="A8i-e8-jST"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="Nvd-EF-HMz"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="vyW-aQ-aRL"/>
-                    <connections>
-                        <outlet property="answerBandNerds" destination="5yo-g1-cni" id="rWC-EQ-Iog"/>
-                        <outlet property="answerRebels" destination="EUp-Yg-NmH" id="3uR-8j-9go"/>
-                        <outlet property="answerSkaters" destination="uOx-Ob-goz" id="QT2-yX-hZ1"/>
-                        <outlet property="question5" destination="cnT-po-Wlt" id="zI7-xv-zqA"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ZjE-nx-GU1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="2660.8695652173915" y="837.72321428571422"/>
-        </scene>
-        <!--Quiz View Controller-->
-        <scene sceneID="ODw-Hv-kCw">
-            <objects>
-                <viewController id="4M0-hW-X5n" customClass="QuizViewController" customModule="The_Stranger_Shuffle" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="gsu-lY-NXy">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" id="qkX-38-Xh3">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" id="yFG-Tb-FmL">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                        <subviews>
-                                            <view contentMode="scaleToFill" id="LIG-c3-aIc">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                <subviews>
-                                                    <view contentMode="scaleToFill" id="WUg-Ph-CE1">
-                                                        <rect key="frame" x="0.0" y="27" width="414" height="788"/>
-                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                                        <subviews>
-                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Choose the show's scariest villain?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fbw-sW-fhQ">
-                                                                <rect key="frame" x="32" y="94" width="350" height="57"/>
-                                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                                                <nil key="textColor"/>
-                                                                <nil key="highlightedColor"/>
-                                                            </label>
-                                                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="v5z-DM-zVG">
-                                                                <rect key="frame" x="156" y="176" width="117" height="240"/>
-                                                                <subviews>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ssE-bg-ay3">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="117" height="36"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" title="The Russians"/>
-                                                                    </button>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vF1-GL-4OU">
-                                                                        <rect key="frame" x="0.0" y="68" width="117" height="36"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" title="Vecna"/>
-                                                                    </button>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egj-2s-vh7">
-                                                                        <rect key="frame" x="0.0" y="136" width="117" height="36"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" title="Papa"/>
-                                                                    </button>
-                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Gar-iu-Jd3">
-                                                                        <rect key="frame" x="0.0" y="204" width="117" height="36"/>
-                                                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
-                                                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                                        <state key="normal" title="SUBMIT">
-                                                                            <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                                        </state>
-                                                                        <connections>
-                                                                            <segue destination="Vo9-cg-xBJ" kind="show" id="Lqs-3P-6zH"/>
-                                                                        </connections>
-                                                                    </button>
-                                                                </subviews>
-                                                            </stackView>
-                                                        </subviews>
-                                                        <viewLayoutGuide key="safeArea" id="r8F-7Z-apM"/>
-                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                                        <constraints>
-                                                            <constraint firstItem="fbw-sW-fhQ" firstAttribute="top" secondItem="r8F-7Z-apM" secondAttribute="top" constant="60" id="TJd-Yp-NHD"/>
-                                                            <constraint firstItem="v5z-DM-zVG" firstAttribute="leading" secondItem="r8F-7Z-apM" secondAttribute="leading" constant="147" id="WmC-mp-BPv"/>
-                                                            <constraint firstItem="v5z-DM-zVG" firstAttribute="top" secondItem="fbw-sW-fhQ" secondAttribute="bottom" id="gEb-ID-WWB"/>
-                                                        </constraints>
-                                                    </view>
-                                                </subviews>
-                                                <viewLayoutGuide key="safeArea" id="eOI-gd-OpW"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                            </view>
-                                        </subviews>
-                                        <viewLayoutGuide key="safeArea" id="Gfu-61-WHn"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                    </view>
-                                </subviews>
-                                <viewLayoutGuide key="safeArea" id="das-2o-ghF"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                            </view>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="ced-72-2E3"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Ngy-Eh-frj"/>
-                    <connections>
-                        <outlet property="answerPapa" destination="egj-2s-vh7" id="D3R-iW-fEn"/>
-                        <outlet property="answerTheRussians" destination="ssE-bg-ay3" id="sv2-x5-6Jx"/>
-                        <outlet property="answerVecna" destination="vF1-GL-4OU" id="A5d-Tu-23j"/>
-                        <outlet property="question6" destination="v5z-DM-zVG" id="kHR-Ws-JlQ"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="inz-r0-w89" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3293" y="838"/>
+            <point key="canvasLocation" x="18.840579710144929" y="763.39285714285711"/>
         </scene>
         <!--Question Data-->
         <scene sceneID="AMd-bk-CJA">
             <objects>
                 <viewController id="Vo9-cg-xBJ" customClass="QuestionData" customModule="The_Stranger_Shuffle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m8o-Va-qmB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="You are" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P5o-e6-7zP">
@@ -848,9 +338,6 @@
         <image name="TitleWithLights" width="180" height="135.33332824707031"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemGrayColor">
-            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
