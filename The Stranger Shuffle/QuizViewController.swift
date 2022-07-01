@@ -9,36 +9,43 @@ import UIKit
 
 class QuizViewController: UIViewController {
     
-    @IBOutlet weak var question1: UIStackView!
-    @IBOutlet weak var answerPeanut: UIButton!
-    @IBOutlet weak var answerIceCream: UIButton!
-    @IBOutlet weak var answerWaffles: UIButton!
+    @IBOutlet weak var questionLabel: UILabel!
     
-    @IBOutlet weak var question2: UIStackView!
-    @IBOutlet weak var answerPANIC: UIButton!
-    @IBOutlet weak var answerAttemptToFight: UIButton!
-    @IBOutlet weak var answerDestroyIt: UIButton!
-    
-    @IBOutlet weak var question3: UIStackView!
-    @IBOutlet weak var answerCultured: UIButton!
-    @IBOutlet weak var answerProtective: UIButton!
-    @IBOutlet weak var answerFierce: UIButton!
-    
-    @IBOutlet weak var question4: UIStackView!
-    @IBOutlet weak var answer3: UIButton!
-    @IBOutlet weak var answer2: UIButton!
-    @IBOutlet weak var answer1: UIButton!
-    
-    @IBOutlet weak var question5: UIStackView!
-    @IBOutlet weak var answerBandNerds: UIButton!
-    @IBOutlet weak var answerSkaters: UIButton!
-    @IBOutlet weak var answerRebels: UIButton!
+    @IBOutlet weak var SingleStackView1: UIStackView!
+    @IBOutlet weak var singleButton1_1: UIButton!
+    @IBOutlet weak var singleButton1_2: UIButton!
+    @IBOutlet weak var singleButton1_3: UIButton!
     
     
-    @IBOutlet weak var question6: UIStackView!
-    @IBOutlet weak var answerTheRussians: UIButton!
-    @IBOutlet weak var answerVecna: UIButton!
-    @IBOutlet weak var answerPapa: UIButton!
+    @IBOutlet weak var SingleStackView2: UIStackView!
+    @IBOutlet weak var singleButton2_1: UIButton!
+    @IBOutlet weak var singleButton2_2: UIButton!
+    @IBOutlet weak var singleButton2_3: UIButton!
+    
+    
+    @IBOutlet weak var SingleStackView3: UIStackView!
+    @IBOutlet weak var singleButton3_1: UIButton!
+    @IBOutlet weak var singleButton3_2: UIButton!
+    @IBOutlet weak var singleButton3_3: UIButton!
+    
+    
+    @IBOutlet weak var SingleStackView4: UIStackView!
+    @IBOutlet weak var singleButton4_1: UIButton!
+    @IBOutlet weak var singleButton4_2: UIButton!
+    @IBOutlet weak var singleButton4_3: UIButton!
+    
+    
+    @IBOutlet weak var SingleStackView5: UIStackView!
+    @IBOutlet weak var singleButton5_1: UIButton!
+    @IBOutlet weak var singleButton5_2: UIButton!
+    @IBOutlet weak var singleButton5_3: UIButton!
+    
+    
+    @IBOutlet weak var SingleStackView6: UIStackView!
+    @IBOutlet weak var singleButton6_1: UIButton!
+    @IBOutlet weak var singleButton6_2: UIButton!
+    @IBOutlet weak var singleButton6_3: UIButton!
+    
     
     
     var questions: [Question] = [
@@ -85,18 +92,46 @@ class QuizViewController: UIViewController {
             Answer(text: "Papa", type: .Eleven)
         ]),
     ]
-      var questionIndex = 0
-      
-      override func viewDidLoad() {
-          super.viewDidLoad()
-    
+    var questionIndex = 0
+        
+        var answersChosen: [Answer] = []
+        
+        override func viewDidLoad() {
+            super.viewDidLoad()
 
-
-        // Do any additional setup after loading the view.
-    }
-    
-
-    
+            // Do any additional setup after loading the view.
+        }
+        func updateUI() {
+        
+            SingleStackView1.isHidden = true
+            SingleStackView2.isHidden = true
+            SingleStackView3.isHidden = true
+            SingleStackView4.isHidden = true
+            SingleStackView5.isHidden = true
+            SingleStackView6.isHidden = true
+            
+            navigationItem.title = "Question #\(questionIndex+1)"
+            
+            let currentQuestion = questions[questionIndex]
+           
+            
+            
+            switch currentQuestion.type {
+            case .single:
+                SingleStackView1.isHidden = false
+            case .single:
+                SingleStackView2.isHidden = false
+            case .single:
+                SingleStackView3.isHidden = false
+            case .single:
+                SingleStackView4.isHidden = false
+            case .single:
+                SingleStackView5.isHidden = false
+            case .single:
+                SingleStackView6.isHidden = false
+            
+                
+        }
 
 }
 
@@ -106,3 +141,4 @@ class QuizViewController: UIViewController {
 //
 // Created by Scholar on 6/30/22.
 //
+}
