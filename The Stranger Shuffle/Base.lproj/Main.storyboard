@@ -25,17 +25,6 @@
                                 <rect key="frame" x="-201" y="0.0" width="817" height="315"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="whQ-MG-tws">
-                                <rect key="frame" x="66" y="298" width="282" height="210"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="fvQ-Ek-Xmh"/>
-                                    <constraint firstAttribute="height" constant="132" id="xct-hz-ZrT"/>
-                                </constraints>
-                                <string key="text">Welcome! Answer the questions below and we'll match you with a Stranger Things character and their favorite 80's music! Make sure to screenshot your responses to tally your results.</string>
-                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
-                                <color key="textColor" red="0.25490196079999999" green="0.33333333329999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FYB-af-3aV">
                                 <rect key="frame" x="121" y="540" width="172" height="39"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -49,6 +38,14 @@
                                     <segue destination="geh-48-KTF" kind="show" id="vJ8-bM-u8Y"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oxc-sU-cmo">
+                                <rect key="frame" x="57" y="323" width="300" height="171"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Welcome! Answer the questions below and we'll match you with a Stranger Things character and their favorite 80's music! Make sure to screenshot your responses to tally your results.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <color key="textColor" red="0.25490196079999999" green="0.33333333329999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="highlightedColor" red="0.25490196079999999" green="0.33333333329999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="0z5-XI-xS2"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -79,20 +76,17 @@
                                     <segue destination="6lu-N4-o0Z" kind="show" id="UGh-AQ-mI1"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="xJj-sC-1gw">
-                                <rect key="frame" x="57" y="44" width="300" height="618"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="xJj-sC-1gw">
+                                <rect key="frame" x="57" y="44" width="300" height="577.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's your favorite snack?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vw-dX-LDK">
-                                        <rect key="frame" x="0.0" y="0.0" width="300" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="L3y-IU-xir"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="0.0" width="300" height="23.5"/>
                                         <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
                                         <color key="textColor" red="0.25490196079999999" green="0.33333333329999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ZNd-Bu-qhg">
-                                        <rect key="frame" x="0.0" y="62" width="300" height="32"/>
+                                        <rect key="frame" x="0.0" y="35.5" width="300" height="32"/>
                                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                                         <segments>
                                             <segment title="Peanut Butter"/>
@@ -101,16 +95,13 @@
                                         </segments>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How would you react to a demogorgon?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUR-S8-GDL">
-                                        <rect key="frame" x="0.0" y="105" width="300" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="XA8-V8-WKY"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="78.5" width="300" height="46.5"/>
                                         <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
                                         <color key="textColor" red="0.25490196079999999" green="0.33333333329999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ZuJ-Ub-RBh">
-                                        <rect key="frame" x="0.0" y="167" width="300" height="32"/>
+                                        <rect key="frame" x="0.0" y="137" width="300" height="32"/>
                                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                                         <segments>
                                             <segment title="PANIC"/>
@@ -119,16 +110,13 @@
                                         </segments>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How would you describe yourself?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jkx-Z9-wJw">
-                                        <rect key="frame" x="0.0" y="210" width="300" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="sCE-pt-hrb"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="180" width="300" height="46.5"/>
                                         <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
                                         <color key="textColor" red="0.25490196079999999" green="0.33333333329999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="E1D-xi-WVP">
-                                        <rect key="frame" x="0.0" y="272" width="300" height="32"/>
+                                        <rect key="frame" x="0.0" y="238.5" width="300" height="32"/>
                                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                                         <segments>
                                             <segment title="Cultured"/>
@@ -137,16 +125,13 @@
                                         </segments>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a Stranger Things Season" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEf-bH-kfd">
-                                        <rect key="frame" x="0.0" y="315" width="300" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="bHI-2I-MNT"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="281.5" width="300" height="46.5"/>
                                         <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
                                         <color key="textColor" red="0.25490196079999999" green="0.33333333329999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tVa-u6-Jhw">
-                                        <rect key="frame" x="0.0" y="377" width="300" height="32"/>
+                                        <rect key="frame" x="0.0" y="340" width="300" height="32"/>
                                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                                         <segments>
                                             <segment title="3"/>
@@ -155,16 +140,13 @@
                                         </segments>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which high school clique do you belong to?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GeN-Jy-3dg">
-                                        <rect key="frame" x="0.0" y="420" width="300" height="50"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="LO5-Uu-JkB"/>
-                                        </constraints>
+                                        <rect key="frame" x="0.0" y="383" width="300" height="46.5"/>
                                         <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
                                         <color key="textColor" red="0.25490196079999999" green="0.33333333329999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="uxL-I8-b55">
-                                        <rect key="frame" x="0.0" y="482" width="300" height="32"/>
+                                        <rect key="frame" x="0.0" y="441.5" width="300" height="32"/>
                                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                                         <segments>
                                             <segment title="Band Nerds"/>
@@ -173,7 +155,7 @@
                                         </segments>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose the show's scariest villain" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWk-2c-nuO">
-                                        <rect key="frame" x="0.0" y="525" width="300" height="50"/>
+                                        <rect key="frame" x="0.0" y="484.5" width="300" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="73R-tC-RwL"/>
                                         </constraints>
@@ -182,7 +164,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="2VA-Q9-fOz">
-                                        <rect key="frame" x="0.0" y="587" width="300" height="32"/>
+                                        <rect key="frame" x="0.0" y="546.5" width="300" height="32"/>
                                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                                         <segments>
                                             <segment title="The Russians"/>
@@ -192,15 +174,13 @@
                                     </segmentedControl>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="9vw-dX-LDK" firstAttribute="leading" secondItem="xJj-sC-1gw" secondAttribute="leading" constant="30" id="hiF-Bm-5j8"/>
                                     <constraint firstAttribute="width" constant="300" id="y1N-uW-et5"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bwt-je-1Bh"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="bwt-je-1Bh" firstAttribute="bottom" secondItem="xJj-sC-1gw" secondAttribute="bottom" constant="10" id="Byf-MW-Ji9"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="o6z-dY-5aM"/>
                 </viewController>
