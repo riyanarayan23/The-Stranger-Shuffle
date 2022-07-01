@@ -109,21 +109,53 @@ class QuizViewController: UIViewController {
             let currentAnswers = currentQuestion.answers
             let totalProgress = Float(questionIndex)/Float(questions.count)
             
+            questionLabel.text = currentQuestion.text
+            
             switch currentQuestion.type {
             case .single:
                 SingleStackView1.isHidden = false
+                updateSingleStack(using: currentAnswers)
                 SingleStackView2.isHidden = false
+                updateSingleStack(using: currentAnswers)
                 SingleStackView3.isHidden = false
+                updateSingleStack(using: currentAnswers)
                 SingleStackView4.isHidden = false
+                updateSingleStack(using: currentAnswers)
                 SingleStackView5.isHidden = false
+                updateSingleStack(using: currentAnswers)
                 SingleStackView6.isHidden = false
-                
+                updateSingleStack(using: currentAnswers)
             }
                 
         }
         
-
-}
+            func updateSingleStack(using answers: [Answer]) {
+                    SingleStackView1.isHidden = false
+                    singleButton1_1.setTitle(answers[0].text, for: .normal)
+                    singleButton1_2.setTitle(answers[1].text, for: .normal)
+                    singleButton1_3.setTitle(answers[2].text, for: .normal)
+                    SingleStackView2.isHidden = false
+                    singleButton2_1.setTitle(answers[0].text, for: .normal)
+                    singleButton2_2.setTitle(answers[1].text, for: .normal)
+                    singleButton2_3.setTitle(answers[2].text, for: .normal)
+                    SingleStackView3.isHidden = false
+                    singleButton3_1.setTitle(answers[0].text, for: .normal)
+                    singleButton3_2.setTitle(answers[1].text, for: .normal)
+                    singleButton3_3.setTitle(answers[2].text, for: .normal)
+                    SingleStackView4.isHidden = false
+                    singleButton4_1.setTitle(answers[0].text, for: .normal)
+                    singleButton4_2.setTitle(answers[1].text, for: .normal)
+                    singleButton4_3.setTitle(answers[2].text, for: .normal)
+                    SingleStackView5.isHidden = false
+                    singleButton5_1.setTitle(answers[0].text, for: .normal)
+                    singleButton5_2.setTitle(answers[1].text, for: .normal)
+                    singleButton5_3.setTitle(answers[2].text, for: .normal)
+                    SingleStackView6.isHidden = false
+                    singleButton6_1.setTitle(answers[0].text, for: .normal)
+                    singleButton6_2.setTitle(answers[1].text, for: .normal)
+                    singleButton6_3.setTitle(answers[2].text, for: .normal)
+                }
+        }
 
 //
 // QuizViewController.swift
