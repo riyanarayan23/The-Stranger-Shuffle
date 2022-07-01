@@ -8,7 +8,7 @@
 import UIKit
 
 class QuizViewController: UIViewController {
-    @IBOutlet weak var singleStackView: UIStackView!
+    
     
     var questions: [Question] = [
       Question(text: "What's your favorite snack?",
@@ -39,7 +39,7 @@ class QuizViewController: UIViewController {
             Answer(text: "2", type: .Max),
             Answer(text: "1", type: .Eleven)
         ]),
-      Question(text: "Which high school clique do you belong in?",
+      Question(text: "Which high school clique do you belong to?",
            type: .single,
            answers: [
             Answer(text: "Band Nerds", type: .Robin),
@@ -49,7 +49,7 @@ class QuizViewController: UIViewController {
       Question(text: "Choose the show's scariest villain",
            type: .single,
            answers: [
-            Answer(text: "Russians", type: .Robin),
+            Answer(text: "The Russians", type: .Robin),
             Answer(text: "Vecna", type: .Max),
             Answer(text: "Papa", type: .Eleven)
         ]),
