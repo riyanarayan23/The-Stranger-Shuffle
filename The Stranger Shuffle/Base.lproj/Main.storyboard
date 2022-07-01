@@ -114,6 +114,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="At0-cN-nk1"/>
                     <connections>
+                        <outlet property="answerIceCream" destination="GYT-bt-lRR" id="9CA-Yh-eij"/>
+                        <outlet property="answerPeanut" destination="AEn-f3-A5h" id="zdS-rZ-kCC"/>
+                        <outlet property="answerWaffles" destination="ajb-u4-Kfy" id="3LL-jH-0hb"/>
                         <outlet property="question1" destination="dqG-fW-thj" id="wxl-uB-0O7"/>
                     </connections>
                 </viewController>
@@ -189,6 +192,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="Hbu-Va-AX0"/>
                     <connections>
+                        <outlet property="answerAttemptToFight" destination="V9R-RP-vc5" id="nAs-f5-D1n"/>
+                        <outlet property="answerDestroyIt" destination="7Du-UR-mjj" id="Pad-v0-iXR"/>
+                        <outlet property="answerPANIC" destination="he3-vb-eGl" id="jYG-BD-mYw"/>
                         <outlet property="question2" destination="pWf-U2-ykO" id="Us9-hJ-zrY"/>
                     </connections>
                 </viewController>
@@ -272,6 +278,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="hmQ-fx-W3h"/>
                     <connections>
+                        <outlet property="answerCultured" destination="wmB-1D-3be" id="yfh-mu-Jaj"/>
+                        <outlet property="answerFierce" destination="MDO-Or-l9s" id="4jw-rD-6ft"/>
+                        <outlet property="answerProtective" destination="WKz-jz-l4I" id="W50-s8-eEt"/>
                         <outlet property="question3" destination="Dti-1F-WG5" id="XSw-hC-Gxy"/>
                     </connections>
                 </viewController>
@@ -350,6 +359,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="Xh4-Rt-g1x"/>
                     <connections>
+                        <outlet property="answer1" destination="kda-s0-ytD" id="9DL-Xu-CtK"/>
+                        <outlet property="answer2" destination="lu1-iI-P0Q" id="Ctm-SZ-gIh"/>
+                        <outlet property="answer3" destination="cef-Ty-LQX" id="ltH-PT-Pm9"/>
                         <outlet property="question4" destination="cfA-GC-dgO" id="4av-5W-kWT"/>
                     </connections>
                 </viewController>
@@ -357,10 +369,10 @@
             </objects>
             <point key="canvasLocation" x="2000.0000000000002" y="837.72321428571422"/>
         </scene>
-        <!--View Controller-->
+        <!--Quiz View Controller-->
         <scene sceneID="r5w-2b-zJy">
             <objects>
-                <viewController id="ZPv-tc-Ywi" sceneMemberID="viewController">
+                <viewController id="ZPv-tc-Ywi" customClass="QuizViewController" customModule="The_Stranger_Shuffle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Bri-Y3-p5k">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -440,15 +452,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="vyW-aQ-aRL"/>
+                    <connections>
+                        <outlet property="question5" destination="cnT-po-Wlt" id="zI7-xv-zqA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ZjE-nx-GU1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2660.8695652173915" y="837.72321428571422"/>
         </scene>
-        <!--View Controller-->
+        <!--Quiz View Controller-->
         <scene sceneID="ODw-Hv-kCw">
             <objects>
-                <viewController id="4M0-hW-X5n" sceneMemberID="viewController">
+                <viewController id="4M0-hW-X5n" customClass="QuizViewController" customModule="The_Stranger_Shuffle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="gsu-lY-NXy">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -536,15 +551,18 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="Ngy-Eh-frj"/>
+                    <connections>
+                        <outlet property="question6" destination="v5z-DM-zVG" id="kHR-Ws-JlQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="inz-r0-w89" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3293" y="838"/>
         </scene>
-        <!--Nd View Controller-->
+        <!--Question Data-->
         <scene sceneID="AMd-bk-CJA">
             <objects>
-                <viewController id="Vo9-cg-xBJ" customClass="_ndViewController" customModule="The_Stranger_Shuffle" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Vo9-cg-xBJ" customClass="QuestionData" customModule="The_Stranger_Shuffle" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m8o-Va-qmB">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

@@ -10,18 +10,29 @@ import UIKit
 class QuizViewController: UIViewController {
     
     @IBOutlet weak var question1: UIStackView!
-    
+    @IBOutlet weak var answerPeanut: UIButton!
+    @IBOutlet weak var answerIceCream: UIButton!
+    @IBOutlet weak var answerWaffles: UIButton!
     
     @IBOutlet weak var question2: UIStackView!
-    
+    @IBOutlet weak var answerPANIC: UIButton!
+    @IBOutlet weak var answerAttemptToFight: UIButton!
+    @IBOutlet weak var answerDestroyIt: UIButton!
     
     @IBOutlet weak var question3: UIStackView!
-    
+    @IBOutlet weak var answerCultured: UIButton!
+    @IBOutlet weak var answerProtective: UIButton!
+    @IBOutlet weak var answerFierce: UIButton!
     
     @IBOutlet weak var question4: UIStackView!
+    @IBOutlet weak var answer3: UIButton!
+    @IBOutlet weak var answer2: UIButton!
+    @IBOutlet weak var answer1: UIButton!
+    
+    @IBOutlet weak var question5: UIStackView!
     
     
-    
+    @IBOutlet weak var question6: UIStackView!
     
     var questions: [Question] = [
       Question(text: "What's your favorite snack?",
@@ -36,7 +47,7 @@ class QuizViewController: UIViewController {
            answers: [
             Answer(text: "PANIC", type: .Robin),
             Answer(text: "Attempt to fight", type: .Max),
-            Answer(text: "Destroy it", type: .Eleven)
+            Answer(text: "Destroy it!", type: .Eleven)
         ]),
       Question(text: "How would you describe yourself?",
            type: .single,
