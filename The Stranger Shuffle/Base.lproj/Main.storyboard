@@ -63,9 +63,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ibI-Ck-Pb5">
-                                <rect key="frame" x="105" y="715" width="205" height="49"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="ibI-Ck-Pb5">
+                                <rect key="frame" x="55" y="727.5" width="305" height="38"/>
                                 <color key="backgroundColor" red="0.72941176470000002" green="0.13725490200000001" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -77,16 +76,16 @@
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" axis="vertical" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="xJj-sC-1gw">
-                                <rect key="frame" x="57" y="44" width="300" height="577.5"/>
+                                <rect key="frame" x="14" y="119" width="380" height="508.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="What's your favorite snack?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9vw-dX-LDK">
-                                        <rect key="frame" x="0.0" y="0.0" width="300" height="23.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="380" height="23.5"/>
                                         <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
                                         <color key="textColor" red="0.25490196079999999" green="0.33333333329999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ZNd-Bu-qhg">
-                                        <rect key="frame" x="0.0" y="35.5" width="300" height="32"/>
+                                        <rect key="frame" x="0.0" y="35.5" width="380" height="32"/>
                                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                                         <segments>
                                             <segment title="Peanut Butter"/>
@@ -95,13 +94,13 @@
                                         </segments>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How would you react to a demogorgon?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RUR-S8-GDL">
-                                        <rect key="frame" x="0.0" y="78.5" width="300" height="46.5"/>
+                                        <rect key="frame" x="0.0" y="78.5" width="380" height="23.5"/>
                                         <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
                                         <color key="textColor" red="0.25490196079999999" green="0.33333333329999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="ZuJ-Ub-RBh">
-                                        <rect key="frame" x="0.0" y="137" width="300" height="32"/>
+                                        <rect key="frame" x="0.0" y="114" width="380" height="32"/>
                                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                                         <segments>
                                             <segment title="PANIC"/>
@@ -110,13 +109,13 @@
                                         </segments>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How would you describe yourself?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jkx-Z9-wJw">
-                                        <rect key="frame" x="0.0" y="180" width="300" height="46.5"/>
+                                        <rect key="frame" x="0.0" y="157" width="380" height="23.5"/>
                                         <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
                                         <color key="textColor" red="0.25490196079999999" green="0.33333333329999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="E1D-xi-WVP">
-                                        <rect key="frame" x="0.0" y="238.5" width="300" height="32"/>
+                                        <rect key="frame" x="0.0" y="192.5" width="380" height="32"/>
                                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                                         <segments>
                                             <segment title="Cultured"/>
@@ -125,13 +124,13 @@
                                         </segments>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose a Stranger Things Season" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oEf-bH-kfd">
-                                        <rect key="frame" x="0.0" y="281.5" width="300" height="46.5"/>
+                                        <rect key="frame" x="0.0" y="235.5" width="380" height="23.5"/>
                                         <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
                                         <color key="textColor" red="0.25490196079999999" green="0.33333333329999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="tVa-u6-Jhw">
-                                        <rect key="frame" x="0.0" y="340" width="300" height="32"/>
+                                        <rect key="frame" x="0.0" y="271" width="380" height="32"/>
                                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                                         <segments>
                                             <segment title="3"/>
@@ -140,13 +139,13 @@
                                         </segments>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Which high school clique do you belong to?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GeN-Jy-3dg">
-                                        <rect key="frame" x="0.0" y="383" width="300" height="46.5"/>
+                                        <rect key="frame" x="0.0" y="314" width="380" height="46.5"/>
                                         <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="20"/>
                                         <color key="textColor" red="0.25490196079999999" green="0.33333333329999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="uxL-I8-b55">
-                                        <rect key="frame" x="0.0" y="441.5" width="300" height="32"/>
+                                        <rect key="frame" x="0.0" y="372.5" width="380" height="32"/>
                                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                                         <segments>
                                             <segment title="Band Nerds"/>
@@ -155,7 +154,7 @@
                                         </segments>
                                     </segmentedControl>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Choose the show's scariest villain" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GWk-2c-nuO">
-                                        <rect key="frame" x="0.0" y="484.5" width="300" height="50"/>
+                                        <rect key="frame" x="0.0" y="415.5" width="380" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="73R-tC-RwL"/>
                                         </constraints>
@@ -164,7 +163,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="2VA-Q9-fOz">
-                                        <rect key="frame" x="0.0" y="546.5" width="300" height="32"/>
+                                        <rect key="frame" x="0.0" y="477.5" width="380" height="32"/>
                                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                                         <segments>
                                             <segment title="The Russians"/>
@@ -174,13 +173,17 @@
                                     </segmentedControl>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="9vw-dX-LDK" firstAttribute="leading" secondItem="xJj-sC-1gw" secondAttribute="leading" constant="30" id="hiF-Bm-5j8"/>
-                                    <constraint firstAttribute="width" constant="300" id="y1N-uW-et5"/>
+                                    <constraint firstAttribute="width" constant="380" id="JP0-sJ-yoZ"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="bwt-je-1Bh"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ibI-Ck-Pb5" firstAttribute="top" secondItem="xJj-sC-1gw" secondAttribute="bottom" constant="100" id="6zI-8m-L9a"/>
+                            <constraint firstItem="xJj-sC-1gw" firstAttribute="top" secondItem="bwt-je-1Bh" secondAttribute="top" constant="75" id="RoE-ho-mkT"/>
+                            <constraint firstItem="ibI-Ck-Pb5" firstAttribute="leading" secondItem="bwt-je-1Bh" secondAttribute="leading" constant="55" id="lyb-YI-Gvd"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="o6z-dY-5aM"/>
                 </viewController>
@@ -196,8 +199,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Congrats on completing the quiz! " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EI8-SP-2jX">
-                                <rect key="frame" x="46" y="62" width="322" height="77"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congrats on completing the quiz! " textAlignment="center" lineBreakMode="wordWrap" numberOfLines="9" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EI8-SP-2jX">
+                                <rect key="frame" x="107" y="64" width="200" height="132"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="132" id="XW7-9o-s86"/>
                                     <constraint firstAttribute="width" constant="200" id="mt7-gg-fF2"/>
@@ -206,8 +209,8 @@
                                 <color key="textColor" red="0.25490196079999999" green="0.33333333329999998" blue="0.73725490199999999" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fKr-gJ-9Ha">
-                                <rect key="frame" x="39" y="204" width="337" height="83"/>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="fKr-gJ-9Ha">
+                                <rect key="frame" x="57" y="292" width="300" height="60"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="TcA-7K-p9l"/>
@@ -223,8 +226,8 @@
                                     <segue destination="hhl-i0-39a" kind="show" id="UST-8c-sHb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="OwR-Lw-Vhc">
-                                <rect key="frame" x="38" y="327" width="338" height="76"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="OwR-Lw-Vhc">
+                                <rect key="frame" x="57" y="376" width="300" height="60"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="Ck4-RK-zHq"/>
@@ -239,8 +242,8 @@
                                     <segue destination="VlN-bu-Ip7" kind="show" id="02j-oD-yll"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iIQ-u9-Uvx">
-                                <rect key="frame" x="39" y="445" width="337" height="88"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="iIQ-u9-Uvx">
+                                <rect key="frame" x="57" y="456" width="300" height="60"/>
                                 <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="300" id="Ph2-dm-mYl"/>
@@ -258,6 +261,17 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="rlJ-fl-Veg"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iIQ-u9-Uvx" firstAttribute="top" secondItem="OwR-Lw-Vhc" secondAttribute="bottom" constant="20" id="0Ij-Wy-mWW"/>
+                            <constraint firstItem="fKr-gJ-9Ha" firstAttribute="top" secondItem="EI8-SP-2jX" secondAttribute="bottom" constant="100" id="Lil-XD-SmH"/>
+                            <constraint firstItem="iIQ-u9-Uvx" firstAttribute="leading" secondItem="rlJ-fl-Veg" secondAttribute="leading" constant="57" id="QgC-a3-KBy"/>
+                            <constraint firstItem="fKr-gJ-9Ha" firstAttribute="leading" secondItem="rlJ-fl-Veg" secondAttribute="leading" constant="57" id="RqV-0m-lgZ"/>
+                            <constraint firstItem="OwR-Lw-Vhc" firstAttribute="top" secondItem="fKr-gJ-9Ha" secondAttribute="bottom" constant="20" id="YXh-yJ-fID"/>
+                            <constraint firstItem="EI8-SP-2jX" firstAttribute="top" secondItem="rlJ-fl-Veg" secondAttribute="top" constant="20" id="d9X-JL-N6U"/>
+                            <constraint firstItem="EI8-SP-2jX" firstAttribute="leading" secondItem="rlJ-fl-Veg" secondAttribute="leading" constant="107" id="f7m-39-baO"/>
+                            <constraint firstItem="OwR-Lw-Vhc" firstAttribute="leading" secondItem="rlJ-fl-Veg" secondAttribute="leading" constant="57" id="rz7-iL-uRg"/>
+                            <constraint firstItem="OwR-Lw-Vhc" firstAttribute="top" secondItem="fKr-gJ-9Ha" secondAttribute="bottom" constant="20" id="t46-dC-0qO"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cWi-lz-Hjw"/>
                 </viewController>
@@ -350,11 +364,11 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="E5c-H5-DI7">
-                                <rect key="frame" x="17" y="726" width="380" height="48"/>
+                                <rect key="frame" x="12" y="726" width="390" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.1176470588" green="0.1137254902" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="21"/>
-                                <state key="normal" title="Click here to listen to Max's playlist!">
+                                <state key="normal" title="Click here to listen to Eleven's playlist!">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" red="0.1176470588" green="0.1137254902" blue="0.1137254902" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
