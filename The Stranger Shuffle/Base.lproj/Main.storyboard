@@ -453,6 +453,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="vyW-aQ-aRL"/>
                     <connections>
+                        <outlet property="answerBandNerds" destination="5yo-g1-cni" id="rWC-EQ-Iog"/>
+                        <outlet property="answerRebels" destination="EUp-Yg-NmH" id="3uR-8j-9go"/>
+                        <outlet property="answerSkaters" destination="uOx-Ob-goz" id="QT2-yX-hZ1"/>
                         <outlet property="question5" destination="cnT-po-Wlt" id="zI7-xv-zqA"/>
                     </connections>
                 </viewController>
@@ -552,6 +555,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="Ngy-Eh-frj"/>
                     <connections>
+                        <outlet property="answerPapa" destination="egj-2s-vh7" id="D3R-iW-fEn"/>
+                        <outlet property="answerTheRussians" destination="ssE-bg-ay3" id="sv2-x5-6Jx"/>
+                        <outlet property="answerVecna" destination="vF1-GL-4OU" id="A5d-Tu-23j"/>
                         <outlet property="question6" destination="v5z-DM-zVG" id="kHR-Ws-JlQ"/>
                     </connections>
                 </viewController>

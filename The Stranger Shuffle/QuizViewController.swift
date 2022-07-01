@@ -30,9 +30,16 @@ class QuizViewController: UIViewController {
     @IBOutlet weak var answer1: UIButton!
     
     @IBOutlet weak var question5: UIStackView!
+    @IBOutlet weak var answerBandNerds: UIButton!
+    @IBOutlet weak var answerSkaters: UIButton!
+    @IBOutlet weak var answerRebels: UIButton!
     
     
     @IBOutlet weak var question6: UIStackView!
+    @IBOutlet weak var answerTheRussians: UIButton!
+    @IBOutlet weak var answerVecna: UIButton!
+    @IBOutlet weak var answerPapa: UIButton!
+    
     
     var questions: [Question] = [
       Question(text: "What's your favorite snack?",
